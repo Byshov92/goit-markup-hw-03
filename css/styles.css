@@ -13,8 +13,8 @@
 body {
     font-family: "Roboto",
         sans-serif;
-            color: var(--main-text-color);
-            background-color: var(--white-color);
+    color: var(--main-text-color);
+        background-color: var(--white-color);
 }
 
 h1,
@@ -43,7 +43,7 @@ img {
 .list {
     list-style: none;
     padding-left: 0;
-        margin: 0;
+    margin: 0;
     }
     
     .container {
@@ -53,6 +53,7 @@ img {
         padding-right: 15px;
         margin: 0 auto;
 }
+
 /** HEADER**/
 
 .header {
@@ -134,7 +135,7 @@ img {
 .hero {
     background-color: var(--main-color);
     padding-top: 188px;
-        padding-bottom: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-container {
@@ -143,6 +144,7 @@ img {
     align-items: center;
 
 }
+
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -150,13 +152,13 @@ img {
     text-align: center;
     color: var(--white-color);
     max-width: 496px;
-        margin-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
     font-family: inherit;
     min-width: 169px;
-        height: 56px;
+    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -165,7 +167,7 @@ img {
     background-color: var(--primery-color);
     cursor: pointer;
     padding: 16px 32px;
-        border: none;
+    border: none;
         border-radius: 4px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -182,6 +184,7 @@ img {
 .advantages-container {
     padding: 120px 0;
 }
+
 .advantages-title {
     color: var(--main-color);
     display: none;
@@ -242,7 +245,7 @@ img {
 .team {
     background-color: var(--light-bg-color);
     padding-top: 120px;
-        padding-bottom: 112px;
+    padding-bottom: 112px;
 }
 
 .team-title {
@@ -263,7 +266,7 @@ img {
 
 .team-item {
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
     
         min-width: 264px;
         height: 388px;
@@ -283,6 +286,7 @@ img {
     padding: 32px 16px;
     align-items: center;
 }
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -308,12 +312,13 @@ img {
     padding: 100px 0;
 
 }
+
 .logo-footer {
     color: var(--light-bg-color);
 }
 
 .footer-text {
-margin-top: 16px;
+    margin-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -325,7 +330,13 @@ margin-top: 16px;
 
 /**PRODUCT**/
 
-.filter-list {}
+.filter-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    gap: 24px;
+}
 
 .filter-item {}
 
@@ -338,6 +349,9 @@ margin-top: 16px;
     color: var(--primery-color);
     cursor: pointer;
     background-color: var(--light-bg-color);
+    border: 1px solid var(--border-color);
+        border-radius: 4px;
+        padding: 12px 24px;
 }
 
 .filter-btn:hover,
@@ -346,14 +360,25 @@ margin-top: 16px;
     color: var(--white-color);
 }
 
-.product {}
+.product h1 {
+    display: none;
+}
 
-.product-list {}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 
 .product-item {}
 
 .product-img {}
 
+.product-content {
+    padding: 32px 16px;
+    border: 1px solid var(--border-color);
+    border-top: none;
+}
 .product-title {
     font-weight: 500;
     font-size: 20px;
@@ -367,4 +392,9 @@ margin-top: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    margin-top: 8px;
+    }
+    
+    .app-container {
+        padding-bottom: 120px;
 }
