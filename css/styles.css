@@ -72,6 +72,7 @@ img {
 
 .header {
     border-bottom: 1px solid var(--border-color);
+    padding: 0 15px;
 
 }
 
@@ -80,12 +81,13 @@ img {
     justify-content: space-between;
     align-items: center;
     padding-top: 24px;
-        padding-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .logo {
@@ -185,7 +187,7 @@ img {
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
@@ -200,6 +202,7 @@ img {
 }
 
 .advantages-container {}
+
 .advantages-title {}
 
 .advantages-list {
@@ -279,7 +282,7 @@ img {
 .team-item {
     display: flex;
     flex-direction: column;
-min-width: 264px;
+    min-width: 264px;
     height: 388px;
 
     /* justify-content: space-between; */
@@ -366,7 +369,7 @@ min-width: 264px;
     background-color: var(--light-bg-color);
     border: 1px solid var(--border-color);
     border-radius: 4px;
-        padding: 12px 24px;
+    padding: 12px 24px;
 }
 
 .filter-btn:hover,
@@ -412,6 +415,7 @@ min-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-.app-container {
-    padding-bottom: 120px;
-}
+
+    .app-container {
+            padding-bottom: 120px;
+        }
